@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #f1f2f6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+.description{
+    margin: 0px 30px;
+    width: 600px;
+}
+.input-container{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    margin-left: 50px;
+}
+input[type="text"]{
+    width: 370px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right:15px ;
+    margin-left:15px ;
+    border: 1px solid rgb(210, 209, 209);
+    border-radius: 4px;
+}
+
+input[type="text"]::placeholder{
+    padding-left:20px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.login-button{
+    width: 375px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0865fe;
+    margin-top: 20px;
+    margin-right:15px ;
+    margin-left:15px ;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.forget-hyperlink{
+    padding: 15px;
+    text-align: center;
+
+}
+
+.line{
+    margin: 0px 15px;
+    border-top: 1px solid #b6b4b4; /* Creates a solid black line */
+    width: 90%; /* Sets the width of the line */
+    height: 0; /* Ensures the div doesn't take up more space than needed */
+}
+
+.createAccount{
+    border: none;
+    padding:15px 50px;
+    margin: 20px 100px;
+    color: black;
+    cursor: pointer;
+    background-color: #41b829;
+    border-radius:8px ;
+}
